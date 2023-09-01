@@ -151,7 +151,7 @@ jobs:
           fetch-depth: 0 # Checkout the whole branch
       - uses: actions/setup-python@v2
         with:
-          python-version: 3.8.1
+          python-version: 3.11.5
 
       - uses: mhanberg/gigalixir-action@v0.6.1
         with:
