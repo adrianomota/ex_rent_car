@@ -142,7 +142,7 @@ jobs:
           --health-retries 5
   deploy:
     name: Deploy Gigalixir
-    needs: [dialyzer, lint, check_format, security, coverage]
+    needs: [lint, check_format, security, coverage]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
